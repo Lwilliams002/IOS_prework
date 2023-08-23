@@ -24,8 +24,8 @@ class ViewController: UIViewController {
             return UIColor(red: red, green: green, blue: blue, alpha: 0.5);
         }
         
-        let randomColor = changeColor()
-        view.backgroundColor = randomColor
+        let randomColor = changeColor();
+        view.backgroundColor = randomColor;
 
     }
     
